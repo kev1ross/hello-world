@@ -16,7 +16,7 @@ public class Hello {
 		// TODO Auto-generated method stub
 
 		System.out.println("Process started");
-		
+
 		// Initialise parameters
 		String param_1 = "";
 		String param_2 = "";
@@ -44,7 +44,11 @@ public class Hello {
 		System.out.println("param_1 = " + param_1);
 		System.out.println("param_2 = " + param_2);
 		System.out.println("param_3 = " + param_3);
-		
+
+		if (param_1.equals("Fish")) {
+			System.out.println("You are fishing!");
+		}
+
 		System.out.println("Process ended");
 	}
 
